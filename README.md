@@ -2,6 +2,8 @@
 
 An interactive and visually appealing Image Gallery project developed as part of the CodeClause Internship program. This repository demonstrates the use of HTML (and potentially CSS/JS) to create a responsive, user-friendly gallery for showcasing images.
 
+ https://parthnagar24.github.io/CodeClauseInternship-ImageGallary/
+
 ## 🚀 Features
 
 - **Responsive Layout:** The gallery adapts to various screen sizes for an optimal viewing experience on any device.
