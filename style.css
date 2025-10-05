@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@600&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+.slick-slider {
+  width: 50%;
+  margin-top: 50px;
+}
+.title {
+  text-align: center;
+  text-transform: capitalize;
+  background: #000105;
+  background: linear-gradient(to right, #000105 0%, #1a40ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+  margin-top: 50px;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+.slick-slider .element {
+  height: 250px;
+  width: 500px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 20px;
+}
+.slick-slider .slick-disabled {
+  opacity: 0;
+  pointer-events: none;
+}
+.slick-next,
+.slick-prev {
+  position: absolute;
+  top: 43%;
+  background-color: transparent;
+  border: 0;
+  font-size: 35px; 
+  cursor: pointer; 
+}
+.slick-prev {
+  left: 0;
+  z-index: 5;
+}
+.slick-next {
+  right: 0;
+}

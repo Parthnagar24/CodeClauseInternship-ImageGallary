@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slick Slider</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <h1 class="title">image slider<br> using slick slider library</h1>
+    <center>
+    <div class="slick-slider">
+      <div class="element element-1"><img src="./1.jpg" alt=""></div>
+      <div class="element element-2"><img src="./2.jpg" alt=""></div>
+      <div class="element element-3"><img src="./3.jpg" alt=""></div>
+      <div class="element element-4"><img src="./4.jpg" alt=""></div>
+      <div class="element element-5"><img src="./5.jpg" alt=""></div>
+      <div class="element element-6"><img src="./6.jpg" alt=""></div>
+      <div class="element element-7"><img src="./7.jpg" alt=""></div>
+      <div class="element element-8"><img src="./8.jpg  " alt=""></div>
+    </div>
+  </center> 
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script type="">
+      $(".slick-slider").slick({
+        centerMode: true,
+        centerPadding: "60px",
+        slidesToShow: 2,
+        prevArrow:'<button type="button" class="slick-prev"><i class="fa-solid fa-circle-chevron-left" style="color: #dedede;"></i></button>',
+        nextArrow:'<button type="button" class="slick-next"><i class="fa-solid fa-circle-chevron-right" style="color: #dedede;"></i></button>',
+        responsive: [
+          {
+            breakpoint: 992,
+            settings: {
+              arrows: true,
+              centerMode: true,
+              centerPadding: "40px",
+              slidesToShow: 2,
+            },
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: true,
+              centerMode: true,
+              centerPadding: "40px",
+              slidesToShow: 1,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              arrows: true,
+              centerMode: true,
+              centerPadding: "40px",
+              slidesToShow: 1,
+            },
+          },
+        ],
+      });
+    </script>
+  </body>
+</html>
